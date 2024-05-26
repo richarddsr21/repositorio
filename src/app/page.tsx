@@ -9,7 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 export default function Home() {
   return (
-    <div className="w-full bg-black md:w-full h-screen">
+    <div className="w-full md:w-full h-screen">
       <ScrollToTop smooth top={700} className="flex items-center pl-1.5" />
       <Header />
       <Hero />
